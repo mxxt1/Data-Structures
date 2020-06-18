@@ -29,3 +29,21 @@ class Queue:
             return None
         else:
             return self.storage.pop(len(self.storage)-1)
+
+
+# class Queue:
+#     def __init__(self):
+#         self.size = 0
+#         self.storage = []
+    
+#     def __len__(self):
+#         return len(self.storage)
+
+#     def enqueue(self, value):
+#         return self.storage.insert(0,value)
+
+#     def dequeue(self):
+#         if len(self.storage) <= 0:
+#             return None
+#         else:
+#             return self.storage.pop(len(self.storage)-1)
